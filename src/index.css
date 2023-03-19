@@ -167,6 +167,7 @@ h1{
 
 
 .btn2{
+  
   cursor: pointer;
   border: none;
   background-color: var(--btn2);
@@ -181,3 +182,74 @@ h1{
   background-color: var(--hover);
 }
 
+
+
+@media (max-width:768px) {
+
+  .nav{
+  width: 100%;
+    
+  }
+
+  h1{
+  padding-top: 1.3rem;
+    display: flex;
+    justify-content:center;
+
+  }
+
+  .nxt{
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  .img1{
+    box-sizing: border-box;
+padding-left: 2rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+    height: 15rem;
+  }
+
+  .nxt2{
+    display: grid;
+    grid-template-rows: 3rem 3.5rem 2rem 6rem 5rem ;
+    grid-column: 3;
+    grid-row: 2;
+    font-size: small;
+  }
+
+   .p3{
+    word-spacing: 2px;
+   text-align: center;
+   
+   }
+
+
+}
+
+@media(max-width: 812px ){
+  .p3{
+   padding-left:2rem ;
+   padding-right: 2rem;
+    word-spacing: 2.3px;
+   text-align: center;
+   
+   }
+}
+
+@media(max-width: 900px ){
+  .p3{
+    padding-left:2rem ;
+    padding-right: 2rem;
+     word-spacing: 2.3px;
+    text-align: center;
+   
+   }
+   
+   .img1{
+    box-sizing: border-box;
+padding-left: 3.9rem;
+   }
+  }

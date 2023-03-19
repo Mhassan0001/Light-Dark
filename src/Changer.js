@@ -39,8 +39,7 @@ const Changer = () => {
  </div>
 
  <div className='nxt'>
-
-  <div className='nxt1'>
+ <div className='nxt1'>
     <h1 >Nike</h1>
     <img className='img1' src={h1} />
   </div>
